@@ -1,59 +1,71 @@
 {
-    "$schema": "$HOME/.config/fastfetch/json_schema.json",
-    "logo": {
-		"source": "$HOME/.config/fastfetch/mewo.txt",
-        "type": "auto",
-		"color": {
-			"1": "magenta"
-    	}
-	},
-    "display": {
-        "key": {
-            "width": 11
-        },
-        "bar": {
-            "charElapsed": "=",
-            "charTotal": "-",
-            "width": 9
-        },
-        "percent": {
-            "type": 2 
-        }
+  "$schema": "$HOME/.config/fastfetch/json_schema.json",
+  "logo": {
+    "source": "$HOME/.config/fastfetch/mewo.txt",
+    "type": "auto",
+    "color": {
+      "1": "magenta"
+    }
+  },
+  "display": {
+    "key": {
+      "width": 8
     },
-    "modules": [
-		"title",
-        "separator",
-		"wm",
-        {
-            "type": "command",
-            "key": "OS Age",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-		{
-			"type": "os",
-			"key": "Distro"
-		},
-        {
-            "type": "gpu",
-            "key": "Graphics",
-            "format": "{2}"
-        },
-        {
-            "type": "gpu",
-            "key": "Driver",
-            "format": "{driver}"
-        }, 
-		"kernel",
-        "packages",
-		"memory",
-        {
-            "type": "disk",
-            "folders": "/",
-			"key": "Storage"
-		},
-        {
-            "type": "colors",
-            "symbol": "circle"
-        }
-    ]
+    "bar": {
+      "charElapsed": "=",
+      "charTotal": "-",
+      "width": 4
+    },
+    "percent": {
+      "type": 2
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "wm",
+      "format": "{1}"
+    },
+    {
+      "type": "command",
+      "key": "Age",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+      "type": "command",
+      "key": "Dist",
+      "text": "cat /etc/os-release | grep '^NAME=' | cut -d'=' -f2 | tr -d '\"' | sed 's/ Linux//'"
+    },
+    {
+      "type": "gpu",
+      "key": "GPU",
+      "format": "{driver}"
+    },
+    {
+      "type": "command",
+      "key": "Kern",
+      "text": "uname -r | cut -d'-' -f1"
+    },
+    {
+      "type": "packages",
+      "key": "Pkgs",
+      "format": "{}"
+    },
+    {
+      "type": "memory",
+      "key": "Mem",
+      "format": "{4}"
+    },
+    {
+      "type": "disk",
+      "folders": "/",
+      "key": "Disk",
+      "format": "{13}"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
 }
