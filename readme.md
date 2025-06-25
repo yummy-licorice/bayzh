@@ -1,15 +1,40 @@
 # Bayzh
 Comprehensive dotfiles for my Hyprland setup based on the colorscheme of the Nier Automata game.
 ## Showcase
-
-| **Eww**    |  ![2025-06-24-193001_hyprshot](https://github.com/user-attachments/assets/34b12b45-9d1f-4ea1-9e17-f23284eac8ee)  |
-| ---------- | --- |
-| **Walker** |  ![image](https://github.com/user-attachments/assets/554e96be-1481-4b8b-b647-b02135d6da30)  |
-| **Zen**    |  ![2025-06-13-183443_hyprshot](https://github.com/user-attachments/assets/900a3f7b-bc47-4d4a-9fc2-96498b50aafe)  |
-| **Foot**   |  ![2025-06-13-034757_hyprshot](https://github.com/user-attachments/assets/abf0c043-f4b0-4641-a7b5-fd030d242404)  |
-| **Discord** |  ![2025-06-15-110741_hyprshot](https://github.com/user-attachments/assets/b96d46c0-672b-45f0-811e-5f015b47e6f2)  |
-| **Helix** |  ![image](https://github.com/user-attachments/assets/cbc0cf7e-de9b-4f78-83d7-b883bef8220f)  |
-| **GTK** | ![2025-06-13-185307_hyprshot](https://github.com/user-attachments/assets/a1c9c7b5-7493-408f-8c21-0dd86c72851b)  |
+![image](https://github.com/user-attachments/assets/e5cf147c-28ee-4161-9975-ed202f52d5a4)
+<details>
+<summary>More Screenshots</summary>
+<table>
+<tr>
+<td><strong>Eww</strong></td>
+<td><img src="https://github.com/user-attachments/assets/34b12b45-9d1f-4ea1-9e17-f23284eac8ee" alt="2025-06-24-193001_hyprshot"></td>
+</tr>
+<tr>
+<td><strong>Walker</strong></td>
+<td><img src="https://github.com/user-attachments/assets/554e96be-1481-4b8b-b647-b02135d6da30" alt="Walker screenshot"></td>
+</tr>
+<tr>
+<td><strong>Zen</strong></td>
+<td><img src="https://github.com/user-attachments/assets/900a3f7b-bc47-4d4a-9fc2-96498b50aafe" alt="2025-06-13-183443_hyprshot"></td>
+</tr>
+<tr>
+<td><strong>Foot</strong></td>
+<td><img src="https://github.com/user-attachments/assets/abf0c043-f4b0-4641-a7b5-fd030d242404" alt="2025-06-13-034757_hyprshot"></td>
+</tr>
+<tr>
+<td><strong>Discord</strong></td>
+<td><img src="https://github.com/user-attachments/assets/b96d46c0-672b-45f0-811e-5f015b47e6f2" alt="2025-06-15-110741_hyprshot"></td>
+</tr>
+<tr>
+<td><strong>Helix</strong></td>
+<td><img src="https://github.com/user-attachments/assets/cbc0cf7e-de9b-4f78-83d7-b883bef8220f" alt="Helix screenshot"></td>
+</tr>
+<tr>
+<td><strong>GTK</strong></td>
+<td><img src="https://github.com/user-attachments/assets/a1c9c7b5-7493-408f-8c21-0dd86c72851b" alt="2025-06-13-185307_hyprshot"></td>
+</tr>
+</table>
+</details>
 
 ## Info
 ### Apps
