@@ -9,6 +9,7 @@ Comprehensive dotfiles for my Hyprland setup based on the colorscheme of the Nie
 | **Foot**   |  ![2025-06-13-034757_hyprshot](https://github.com/user-attachments/assets/abf0c043-f4b0-4641-a7b5-fd030d242404)  |
 | **Discord** |  ![2025-06-15-110741_hyprshot](https://github.com/user-attachments/assets/b96d46c0-672b-45f0-811e-5f015b47e6f2)  |
 | **Helix** |  ![image](https://github.com/user-attachments/assets/cbc0cf7e-de9b-4f78-83d7-b883bef8220f)  |
+| **GTK** | ![2025-06-13-185307_hyprshot](https://github.com/user-attachments/assets/a1c9c7b5-7493-408f-8c21-0dd86c72851b)  |
 
 ## Info
 ### Apps
