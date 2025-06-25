@@ -263,7 +263,8 @@ reboot
 ```
 ### Help
 1. Run `make help` for available commands
-2. Check the Issues page and make a new issue
+2. Check the [Issues](https://github.com/yummy-licorice/bayzh/issues) page and make a new issue
 ## Acknowledgments
 - [YoRHa CSS](https://github.com/metakirby5/yorha) - Color scheme inspiration
 - [BeatsPrint](https://github.com/TrueMyst/BeatPrints/tree/main) - Music widget inspiration
+- [nishiiko/niri-dots](https://github.com/nishiiko/niri-dots) - Fastfetch config
