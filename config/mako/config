@@ -1,0 +1,30 @@
+max-visible=5
+sort=-time
+
+layer=top
+anchor=top-right
+
+font=iA Writer Duo S 11
+background-color=#d1cdb7
+text-color=#454138
+width=300
+height=300
+margin=12
+padding=15
+border-size=3
+border-color=#bab5a1
+border-radius=0
+progress-color=over #45413855
+icons=true
+max-icon-size=64
+
+markup=true
+actions=true
+format=<b>%s</b>\n%b
+default-timeout=7000
+ignore-timeout=false
+
+[urgency=high]
+background-color=#dcd8c0
+border-color=#454138
+text-color=#454138

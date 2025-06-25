@@ -1,0 +1,88 @@
+(defwindow tarana :monitor 0
+                  :geometry (geometry :x "20"
+                                      :y "20"
+                                      :width "330"
+                                      :height "410"
+                                      :anchor "bottom right")
+                  :stacking "bg"
+                  :windowtype "normal"
+                  :exclusive false
+                  (bg))
+
+(deflisten data "./scripts/tarana")
+
+(defwidget bg []
+  (box :class "bg"
+       :orientation "v"
+       :space-evenly false
+       :spacing 10
+    (album)
+    (box :space-evenly false
+         :spacing 0
+         :orientation "v"
+      (colors)
+      (md)
+    (bottom))))
+
+(defwidget album []
+  (box :class "albumbox"
+       :valign "start"
+       :halign "center"
+    (image :path "${data["art"]}"
+           :image-width 300
+           :image-height 300)))
+
+(defwidget colors []
+  (box :class "colorsbox"
+       :halign "center"
+    (image :path "${data["strip"]}"
+           :image-width 300)))
+
+(defwidget bottom []
+  (box :class "bottombox"
+       :halign "center"
+       :valign "end"
+      (image :path "${data["bottom"]}"
+             :image-width 330
+             :image-height 5
+             :preserve-aspect-ratio false)))
+
+(defwidget md []
+  (box :class "metadatabox"
+       :halign "fill"
+    (box :class "infobox"
+         :halign "start"
+         :valign "start"
+         :orientation "v"
+         :space-evenly false
+         :spacing 0
+        (label :class "songtitle"
+               :unindent true
+               :halign "start"
+               :truncate false
+               :text "${data["title"]}")
+        (label :class "artist"
+               :unindent true
+               :halign "start"
+               :text "${data["artist"]}"))
+    (box :class "buttonsbox"
+         :halign "end"
+         :orientation "v"
+        (label :class "progress"
+               :halign "end"
+               :unindent true
+               :text "${data["position"]}")
+        (box :class "iconsbox"
+             :halign "end"
+             :valign "end"
+             :orientation "h"
+             :space-evenly false
+             :spacing 4
+            (button :onclick "playerctl play-pause"
+              "")
+            (button :onclick "playerctl next"
+              "")
+            (button :onclick "playerctl previous"
+              "")
+            (button :onclick "playerctl next"
+              "")))))

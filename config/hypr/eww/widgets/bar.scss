@@ -1,0 +1,43 @@
+.bar {
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: $background;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.left {
+  padding-top: 6.5px;
+}
+
+.focused, .occupied {
+  background-color: $foreground;
+  color: $foreground;
+  font-size: 6px;
+}
+
+.vacant {
+  background-color: $lighter;
+  color: $lighter;
+  font-size: 6px;
+}
+
+.battery {
+  font-family: Phosphor;
+  font-size: 16px;
+  padding-top: 2px;
+  color: $foreground;
+}
+
+.clock {
+  font-family: Phosphor;
+  font-size: 16px;
+  padding-top: 2px;
+  padding-left: 4px;
+  color: $foreground;
+}
+
+.time {
+  color: $foreground;
+  font-size: 12px;
+}

@@ -1,0 +1,45 @@
+$bg: #D1C9B6;
+$fg: #322F30;
+
+.bg {
+  background-color: $bg
+}
+
+.albumbox {
+  padding-top: 15;
+  padding-left: 15;
+  padding-right: 15;
+}
+
+.metadatabox {
+  padding-left: 15;
+  padding-right: 15;
+}
+
+.songtitle {
+  color: $fg;
+  font: bold 28 Oswald;
+  margin-bottom: -8px;
+}
+
+.artist {
+  color: $fg;
+  font: normal 20 Oswald;
+  margin-top: -2px;
+}
+
+.progress {
+  color: $fg;
+  font: normal 18 Oswald;
+  margin-bottom: -28px;
+}
+
+.iconsbox {
+  color: $fg;
+  margin-top: -10px;
+  font: normal 18 "Phosphor\-Fill";
+}
+
+.bottombox {
+  margin-top: 8px;
+}

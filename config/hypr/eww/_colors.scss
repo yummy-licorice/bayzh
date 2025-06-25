@@ -1,0 +1,34 @@
+// Main colors
+$foreground: #454138;    // Main text color
+$fg2: #ece8d0;
+$lighter: #59534a;
+$background: #d1cdb7;    // Paper-like background
+
+// Regular colors
+$regular0: #d1cdb7;      // Background color (black replacement)
+$regular1: #8c7a6a;      // Muted red
+$regular2: #6a8c7a;      // Muted green
+$regular3: #8c8c6a;      // Muted yellow
+$regular4: #6a7a8c;      // Muted blue
+$regular5: #7a6a8c;      // Muted purple
+$regular6: #6a8c8c;      // Muted cyan
+$regular7: #454138;      // Dark text (white replacement)
+
+// Bright colors
+$bright0: #bab5a1;       // Accent color (bright black)
+$bright1: #a69383;       // Warm red
+$bright2: #83a693;       // Soft green
+$bright3: #a6a683;       // Warm yellow
+$bright4: #8393a6;       // Soft blue
+$bright5: #9383a6;       // Soft purple
+$bright6: #83a6a6;       // Soft cyan
+$bright7: #dcd8c0;       // Highlight color (bright white)
+
+// Additional semantic names for better readability
+$accent: $bright1;       // Warm red
+$error: $bright1;        // Warm red
+$success: $bright2;      // Soft green
+$warning: $bright3;      // Warm yellow
+$info: $bright4;         // Soft blue
+$highlight: $bright7;    // Highlight color
+$muted-text: $regular1;  // Muted red

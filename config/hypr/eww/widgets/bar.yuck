@@ -1,0 +1,67 @@
+(defwindow hud
+  :monitor 0
+  :geometry (geometry
+    :x "0%"
+    :y "0%"
+    :width "100%"
+    :height "26px"
+  :anchor "top center")
+  :stacking "fg"
+  :reserve (struts :distance "50px" :side "top")
+  :windowtype "dock"
+  :exclusive true
+  :wm-ignore false
+  (bar))
+
+(deflisten ws "/home/licorice/.config/hypr/eww/scripts/ws")
+(defpoll battery :interval "1s" "/home/licorice/.config/hypr/eww/scripts/battery")
+(defpoll time :interval "30s" "date +'%-I:%M  %p'")
+
+(defwidget bar []
+  (centerbox :orientation "h"
+             :class "bar"
+    (left)
+    (center)
+    (right)))
+
+(defwidget left []
+  (literal :content ws))
+
+(defwidget right []
+  (box :orientation "h"
+       :halign "end"
+       :valign "center"
+       :space-evenly false
+       :spacing 9
+    ;(battery)  
+    (systray :spacing 7
+             :orientation "h"
+             :space-evenly true
+             :icon-size 13
+             :halign "center"
+             :class "tray")
+    (battery)
+    (clock)))
+
+; This should be empty its just to reserve space
+(defwidget center []
+  (box :orientation "h"
+       :halign "center"
+       :valign "center"
+    ;(clock)
+    ""))
+
+
+(defwidget battery []
+  (label :text {battery["icon"]}
+         :class "battery"
+         :tooltip `${battery["tooltip"]}%`))
+
+(defwidget clock []
+  (box :orientation "h"
+       :space-evenly false
+       :spacing 4
+    (label :text ""
+           :class "clock")
+    (label :text `${time}`
+           :class "time")))

@@ -1,0 +1,31 @@
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+
+:root {
+  /* Accent Colors (earthy, optimized for light theme) */
+  --accentcolor: 88, 129, 87;         /* Muted forest green */
+  --accentcolor2: 156, 108, 95;       /* Muted terracotta */
+  --linkcolor: 94, 123, 137;          /* Slate blue */
+  --mentioncolor: 173, 133, 78;       /* Amber brown */
+
+  /* Dark Foreground Text (#454138 family) */
+  --textbrightest: 50, 46, 40;        /* Darkest (high contrast) */
+  --textbrighter: 60, 56, 50;         /* Strong text */
+  --textbright: 69, 65, 56;           /* Your exact #454138 */
+  --textdark: 80, 76, 70;             /* Standard text */
+  --textdarker: 90, 86, 80;           /* Secondary text */
+  --textdarkest: 100, 96, 90;         /* Disabled/placeholder */
+
+  /* Light Backgrounds (#d1cdb7 family) */
+  --backgroundprimary: 209, 205, 183;   /* Your exact #d1cdb7 */
+  --backgroundsecondary: 200, 196, 174; /* Slightly darker */
+  --backgroundsecondaryalt: 190, 186, 164; /* Contrast layer */
+  --backgroundtertiary: 180, 176, 154;  /* De-emphasized areas */
+  --backgroundaccent: 220, 216, 194;    /* Brighter accents */
+  --backgroundfloating: 230, 226, 204;  /* Brightest (dialogs) */
+
+  /* Font */
+  --font: iA Writer Duo S, system-ui, sans-serif;
+
+  /* Settings */
+  --settingsicons: 1;
+}
