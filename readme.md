@@ -35,7 +35,7 @@ Comprehensive dotfiles for my Hyprland setup based on the colorscheme of the Nie
 - Internet connection
 ### Quick Install
 ```bash
-git clone <your-repo-url> ~/.dotfiles
+git clone https://github.com/yummy-licorice/bayzh ~/.dotfiles
 cd ~/.dotfiles
 make install
 ```
@@ -50,7 +50,7 @@ The installer will:
 If you aren't on an arch based distro you'll have to manually install the dependencies
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url> ~/.dotfiles
+git clone https://github.com/yummy-licorice/bayzh ~/.dotfiles
 cd ~/.dotfiles
 ```
 2. **Run the installation**
